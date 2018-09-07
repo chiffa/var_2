@@ -1,0 +1,28 @@
+Developing novel personalized therapies for cancer is a complex task, hindered by the
+ entanglement of cancer pathways, differences in genetic make-up of individual cancers
+  and the variety of molecular mechanisms by which cancers can progress.
+
+Overcoming these obstacles requires a systems biology approach in order to integrate high-throughput
+ data characterizing cancers as well as experimental models with existing biological knowledge.
+
+To perform such integration, we introduced a new mathematical formalization of
+ biological organisms. We model all biological systems as a graph of directly
+  interacting molecular entities that carries out distributed computation underlying
+   biological processes. Within this model, every function in a biological
+    system is associated to an information flow pattern in that graph,
+     supported by underlying nodes or edges. Disruption
+      of nodes and edges in the network by mutations, copy number variations
+       or drugs lead to a perturbation of that flow and hence to the disruption
+        or enhancement of functions of interest.
+
+We show that a complete network that complete graph of molecular integration can be build based on the existing repositories
+ of biological knowledge. After building a reference open-source implementation of the method,
+  we validated our approach on the K14 and TWIST1-associated pathways,
+   that were previously reported to drive cancer cell dissemination and metastases in
+    mouse and mouse organoids.
+Our aim was to prioritize the candidate genes for functional validation, given a large list of potential hits and to identify additional potential targets that might be invisible in one type of data. Both aims were achieved, revealing major information-routing hubs among differentially
+ expressed genes in both datasets and connecting them to well-known cancer genes.
+
+We anticipate that this approach could eventually lead to insights into
+ treatments personalization and mechanisms of drug resistance emergence
+ and are planning to focus our research in this direction.
